@@ -13,6 +13,7 @@ C:\Users\jcgar\Documents\spring\microservices\accounts\src\main\java\com\greymat
 C:\Users\jcgar\Documents\spring\microservices\accounts\src\main\java\com\greymatter\accounts\service\IAccountsService.java
 C:\Users\jcgar\Documents\spring\microservices\accounts\src\main\java\com\greymatter\accounts\constants\AccountsConstants.java
 C:\Users\jcgar\Documents\spring\microservices\accounts\src\main\java\com\greymatter\accounts\mapper\AccountsMapper.java
+C:\Users\jcgar\Documents\spring\microservices\accounts\src\main\java\com\greymatter\accounts\dto\AccountsContactInfoDto.java
 C:\Users\jcgar\Documents\spring\microservices\accounts\src\main\java\com\greymatter\accounts\entity\BaseEntity.java
 C:\Users\jcgar\Documents\spring\microservices\accounts\src\main\java\com\greymatter\accounts\exception\GlobalExceptionHandler.java
 C:\Users\jcgar\Documents\spring\microservices\accounts\src\main\java\com\greymatter\accounts\exception\ResourceNotFoundException.java
