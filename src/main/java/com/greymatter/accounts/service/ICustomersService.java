@@ -1,2 +1,8 @@
-package com.greymatter.accounts.service;public class ICustomersService {
+package com.greymatter.accounts.service;
+
+import com.greymatter.accounts.dto.CustomerDetailsDto;
+
+public interface ICustomersService {
+
+    CustomerDetailsDto fetchCustomerDetails(String mobileNumber);
 }
