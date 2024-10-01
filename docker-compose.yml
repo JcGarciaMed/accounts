@@ -1,0 +1,48 @@
+services:
+  accounts:
+    image: "jcgarciamed/accounts:s4"
+    container_name: accounts-ms
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - greymatter
+  loans:
+    image: "jcgarciamed/loans:s4"
+    container_name: loans-ms
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - greymatter
+  cards:
+    image: "jcgarciamed/cards:s4"
+    container_name: cards-ms
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - greymatter
+  indetity:
+    image: "jcgarciamed/identity:s4"
+    container_name: identity-ms
+    ports:
+      - "9030:9030"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - greymatter
+networks:
+  greymatter:
+    driver: "bridge"
