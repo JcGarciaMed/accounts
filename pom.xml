@@ -99,7 +99,7 @@
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>jcgarciamed/${project.artifactId}:s4</image>
+						<image>jcgarciamed/${project.artifactId}:s6</image>
 					</to>
 				</configuration>
 			</plugin>
